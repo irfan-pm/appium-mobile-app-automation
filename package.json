@@ -1,0 +1,19 @@
+{
+  "name": "appium-mobile-app-automation",
+  "version": "1.0.0",
+  "main": "cy.js",
+  "scripts": {
+    "appium": "appium",
+    "test": "node cy.js",
+    "test:login": "mocha login.test.js --timeout 180000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "dotenv": "^18.0.0",
+    "mocha": "^10.7.3",
+    "webdriverio": "^9.31.9"
+  }
+}
