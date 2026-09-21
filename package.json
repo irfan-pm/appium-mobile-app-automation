@@ -5,7 +5,8 @@
   "scripts": {
     "appium": "appium",
     "test": "node cy.js",
-    "test:login": "mocha login.test.js --timeout 180000 --exit"
+    "test:login": "mocha login.test.js --timeout 180000 --exit",
+    "test:brand": "mocha brand.test.js --timeout 180000 --exit"
   },
   "keywords": [],
   "author": "",
